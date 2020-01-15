@@ -12,7 +12,7 @@
 <p id="demo"></p>
 
 <script>
-var myObj, i, j, x = "";
+var myObj, x = "";
 myObj = {
   "resno": "X0000",
   "e_mail": "s.mann@smann.com",
@@ -26,7 +26,6 @@ myObj = {
 
 
 Object.keys(myObj).forEach(key => {
-    //x += typeof (myObj[key]);
     if(typeof (myObj[key]) !== 'object'){
     	x += key + ":" + myObj[key] + " ";
     } else{
