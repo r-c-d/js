@@ -14,14 +14,14 @@
 <script>
 var myObj, i, j, x = "";
 myObj = {
-  "resno": "R10347",
-  "e_mail": "m.milante@irri.org",
+  "resno": "X0000",
+  "e_mail": "s.mann@smann.com",
   "balances": {
-    "VACATION": "416",
-    "MEDICAL": "802",
-    "COMPASSIONATE":"100"
+    "vac": "416",
+    "med": "802",
+    "com":"100"
   },
-  "GooglesheetID": "some string value"
+  "gsID": "some string value"
 }
 
 
